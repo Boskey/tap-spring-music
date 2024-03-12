@@ -1,0 +1,21 @@
+id: ec113eb4-0225-4a06-926a-eb0fa4a4b140
+timestamp: 2024-03-11T22:21:48.781Z
+source: TAP-GUI
+username: cody@keithlee.ie
+options:
+  projectName: tanzu-java-spring-music
+  buildTool: gradle
+  springBootVersion: 3.2
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  ide: vscode
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
