@@ -21,3 +21,9 @@ spec:
       url: https://github.com/Boskey/tap-spring-music
       ref:
         branch: main
+  serviceClaims:
+    - name: broker-springmusic-postgres
+      ref:
+        apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+        kind: ClassClaim
+        name: psql-spring-music
